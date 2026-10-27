@@ -1,6 +1,6 @@
 {
   "network": "mainnet",
-  "version": 9,
+  "version": 10,
   "items": [
     {
       "id": "geoquizz",
@@ -112,6 +112,20 @@
       "category": "games",
       "brandColor": "#203E35",
       "isExchange": false
+    },
+    {
+      "id": "darwin",
+      "name": {
+        "en": "Darwin"
+      },
+      "tagline": {
+        "en": "One token, a whole strategy. On-chain crypto baskets, held in your own wallet."
+      },
+      "url": "https://app.darwin.market",
+      "category": "defi",
+      "icon": "icons/darwin.png",
+      "brandColor": "#FF6A3D",
+      "isExchange": false
     }
   ],
   "sections": [
@@ -121,7 +135,10 @@
       "title": {
         "en": "DeFi"
       },
-      "itemIds": ["port0"]
+      "itemIds": [
+        "port0",
+        "darwin"
+      ]
     },
     {
       "id": "games",
